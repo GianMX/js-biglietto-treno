@@ -1,0 +1,40 @@
+/* General Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body  {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+/* Specific Rules */
+ #costo {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: green;
+  width: 1024px;
+  margin: 0 auto;
+  color: white;
+  margin-top: 50px;
+  border-radius: 40px;
+  border: 1px solid #4cae4c;
+}
+.controllore {
+  background-image: url(../img/controllore.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.compra {
+  background-color: green;
+}
+#youshallnotpass {
+  margin-top: 300px;
+}
+.mymark {
+  padding-right: 30px;
+  font-weight: bold;
+}
